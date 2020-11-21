@@ -1,0 +1,21 @@
+{
+    "name": "aura",
+    "displayName": "Aura",
+    "description": "Aura design style in darkmode for visual code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "aura",
+                "uiTheme": "vs-dark",
+                "path": "./themes/aura-color-theme.json"
+            }
+        ]
+    }
+}
