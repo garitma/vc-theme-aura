@@ -1,7 +1,8 @@
 {
     "name": "aura",
-    "displayName": "Aura",
-    "description": "Aura design style in darkmode for visual code",
+    "displayName": "Aura Design VC",
+    "description": "Aura Design style for visual code",
+    "publisher": "garitma",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.51.0"
