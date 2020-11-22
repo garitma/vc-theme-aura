@@ -1,13 +1,24 @@
 {
-	"name": "Aura design",
+	"name": "Aura Design",
 	"type": "dark",
 	"colors": {
+		"titleBar.activeBackground": "#0C122B",
+        "titleBar.activeForeground":"#fafafa",
 		"editor.background": "#0C122B",
 		"editor.foreground": "#d4d4d4",
-		"editorIndentGuide.background": "#404040",
-		"editorRuler.foreground": "#333333",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editorGroupHeader.tabsBackground": "#0C122B",
+		"editorIndentGuide.background": "#0C122B",
+		"editorRuler.foreground": "#0C122B",
+		"activityBarBadge.background": "#cd9ffb",
+		"sideBarTitle.foreground": "#cd9ffb",
+		"sideBar.background": "#0C122B",
+		"activityBar.background": "#0C122B",
+		"dropdown.background": "#0C122B",
+		"dropdown.listBackground": "#0C122B",
+		"input.background": "#121a3f",
+		"tab.activeBackground": "#121a3f",
+		"tab.inactiveBackground": "#0C122B",
+		"statusBar.background": "#cd9ffb",
 	},
 	"tokenColors": [
 		{
@@ -56,6 +67,15 @@
 				"keyword",
 				"storage.type",
 				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#9fdefb"
+			}
+		},
+		{
+			"name": "Async",
+			"scope": [
+				"storage.modifier.async",
 			],
 			"settings": {
 				"foreground": "#9fdefb"
