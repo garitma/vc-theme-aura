@@ -102,6 +102,15 @@
 			}
 		},
 		{
+			"name": "JSX children",
+			"scope": [
+				"meta.jsx.children",
+			],
+			"settings": {
+				"foreground": "#fafafa"
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
@@ -109,7 +118,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#0dacf5"
+				"foreground": "#9fdefb"
 			}
 		},
 		{
@@ -131,7 +140,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#9fdefb"
+				"foreground": "#fb9fbc"
 			}
 		},
 		{
