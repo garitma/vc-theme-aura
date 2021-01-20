@@ -1,15 +1,27 @@
 {
-    "name": "aura",
-    "displayName": "Aura Design VC",
-    "description": "Aura Design style for visual code",
-    "publisher": "garitma",
+    "name": "aura-design-vs",
     "version": "0.0.1",
+    "displayName": "Aura Design VC",
+    "description": "Aura Design style dark mode for visual code",
+    "publisher": "garitma",
+    "author": "Garitma <hola@garitma.com",
+    "license": "MIT",
+    "homepage": "https://github.com/garitma/vc-theme-aura",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/garitma/vc-theme-aura"
+      },
+    "bugs": {
+        "url": "https://github.com/garitma/vc-theme-aura/issues"
+    },
+    "icon": "images/dark-aura.png",
     "engines": {
         "vscode": "^1.51.0"
     },
     "categories": [
         "Themes"
     ],
+
     "contributes": {
         "themes": [
             {
