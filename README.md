@@ -1,6 +1,14 @@
-# Aura Design system
+# Aura Design VC
 
-Welcome to the source code repository for [Garitma Aura Design VS](https://github.com/garitma/vc-theme-aura/), brought to you by [Garitma](https://garitma.com/) based in dark mode of [Aura Design System](https://auradesignsystem.com/).
+Welcome to the Aura Design VC theme, brought to you by [Garitma](https://garitma.com/) based in dark mode of [Aura Design System](https://auradesignsystem.com/).
+
+![Cover](./images/preview.png)
+
+Just elegant and fresh dark mode theme.
+
+## Fonts
+
+We strongly recommend using the font `iA Writer Mono` that can be found in [Github](https://github.com/iaolo/iA-Fonts) for free.
 
 ## Licence
 
