@@ -2,7 +2,7 @@
 
 Welcome to the Aura Design VC theme, brought to you by [Garitma](https://garitma.com/) based in dark mode of [Aura Design System](https://auradesignsystem.com/).
 
-![Cover](./images/preview.png)
+![Cover](https://images.prismic.io/garitma/02af87c6-2246-4fe4-a622-016ae264c268_preview.png?auto=compress,format)
 
 Just elegant and fresh dark mode theme.
 
