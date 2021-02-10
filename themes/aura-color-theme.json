@@ -185,6 +185,15 @@
 			}
 		},
 		{
+			"name": "Inherited Class",
+			"scope": [
+				"entity.other.inherited-class",
+			],
+			"settings": {
+				"foreground": "#fcb7f6"
+			}
+		},
+		{
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
