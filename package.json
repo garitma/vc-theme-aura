@@ -25,7 +25,12 @@
     "contributes": {
         "themes": [
             {
-                "label": "aura",
+                "label": "Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/aura-color-theme.json"
+            },
+            {
+                "label": "Light",
                 "uiTheme": "vs-dark",
                 "path": "./themes/aura-color-theme.json"
             }

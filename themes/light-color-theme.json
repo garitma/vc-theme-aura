@@ -1,6 +1,6 @@
 {
 	"name": "Aura Design",
-	"type": "light",
+	"type": "dark",
 	"colors": {
 		"titleBar.activeBackground": "#0C122B",
         "titleBar.activeForeground":"#fafafa",
