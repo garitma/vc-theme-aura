@@ -21,6 +21,11 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+		"theme",
+		"dark theme",
+		"aura"
+	],
     "contributes": {
         "themes": [
             {
