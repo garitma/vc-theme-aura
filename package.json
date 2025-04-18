@@ -1,6 +1,6 @@
 {
     "name": "aura-design-vs",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "displayName": "Aura Design VC",
     "description": "Aura Design style dark mode for visual code",
     "publisher": "garitma",
@@ -21,18 +21,17 @@
     "categories": [
         "Themes"
     ],
-
     "contributes": {
         "themes": [
             {
-                "label": "Dark",
+                "label": "Aura Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/aura-color-theme.json"
+                "path": "./themes/dark-color-theme.json"
             },
             {
-                "label": "Light",
-                "uiTheme": "vs-dark",
-                "path": "./themes/aura-color-theme.json"
+                "label": "Aura Light",
+                "uiTheme": "vs",
+                "path": "./themes/light-color-theme.json"
             }
         ]
     }

@@ -1,6 +1,6 @@
 {
-	"name": "Aura Design",
-	"type": "light",
+	"name": "Aura Design Dark",
+	"type": "dark",
 	"colors": {
 		"titleBar.activeBackground": "#0C122B",
         "titleBar.activeForeground":"#fafafa",
@@ -9,7 +9,7 @@
 		"editorGroupHeader.tabsBackground": "#0C122B",
 		"editorIndentGuide.background": "#0C122B",
 		"editorRuler.foreground": "#0C122B",
-		"activityBarBadge.background": "#cd9ffb",
+		"activityBarBadge.background": "#BF91EC",
 		"sideBarTitle.foreground": "#cd9ffb",
 		"sideBar.background": "#0C122B",
 		"activityBar.background": "#0C122B",
@@ -18,7 +18,7 @@
 		"input.background": "#121a3f",
 		"tab.activeBackground": "#121a3f",
 		"tab.inactiveBackground": "#0C122B",
-		"statusBar.background": "#cd9ffb",
+		"statusBar.background": "#BF91EC",
 	},
 	"tokenColors": [
 		{
