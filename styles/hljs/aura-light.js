@@ -6,9 +6,9 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var _default = exports["default"] = {
   "code[class*=\"language-\"]": {
-    "color": "#828292", // Changed to match editor.foreground
+    "color": "#828292", // editor.foreground
     "background": "none",
-    "fontFamily": "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
+    "fontFamily": "Geist Mono, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
     "fontSize": "1em",
     "textAlign": "left",
     "whiteSpace": "pre",
@@ -30,9 +30,9 @@ var _default = exports["default"] = {
     "overflow": "auto"
   },
   "pre[class*=\"language-\"]": {
-    "color": "#828292", // Changed to match editor.foreground
+    "color": "#828292", // editor.foreground
     "background": "none",
-    "fontFamily": "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
+    "fontFamily": "Geist Mono, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
     "fontSize": "1em",
     "textAlign": "left",
     "whiteSpace": "pre",
@@ -51,7 +51,7 @@ var _default = exports["default"] = {
     "margin": ".5em 0",
     "overflow": "visible",
     "padding": "1px",
-    "backgroundColor": "#efeff8", // Changed to match editor.background
+    "backgroundColor": "#efeff8", // editor.background
     "WebkitBoxSizing": "border-box",
     "MozBoxSizing": "border-box",
     "boxSizing": "border-box",
@@ -60,16 +60,16 @@ var _default = exports["default"] = {
   "pre[class*=\"language-\"] > code": {
     "position": "relative",
     "zIndex": "1",
-    "borderLeft": "10px solid #B486E0", // Changed to match activityBarBadge.background
-    "boxShadow": "-1px 0px 0px 0px #B486E0, 0px 0px 0px 1px #dfdfdf", // Changed to match activityBarBadge.background
-    "backgroundColor": "#efeff8", // Changed to match editor.background
-    "backgroundImage": "linear-gradient(transparent 50%, rgba(180, 134, 224, 0.04) 50%)", // Changed to match activityBarBadge.background
+    "borderLeft": "10px solid #B486E0", // activityBarBadge.background
+    "boxShadow": "-1px 0px 0px 0px #B486E0, 0px 0px 0px 1px #dfdfdf", // activityBarBadge.background
+    "backgroundColor": "#efeff8", // editor.background
+    "backgroundImage": "linear-gradient(transparent 50%, rgba(180, 134, 224, 0.04) 50%)", // activityBarBadge.background
     "backgroundSize": "3em 3em",
     "backgroundOrigin": "content-box",
     "backgroundAttachment": "local"
   },
   ":not(pre) > code[class*=\"language-\"]": {
-    "backgroundColor": "#efeff8", // Changed to match editor.background
+    "backgroundColor": "#efeff8", // editor.background
     "WebkitBoxSizing": "border-box",
     "MozBoxSizing": "border-box",
     "boxSizing": "border-box",
@@ -77,7 +77,7 @@ var _default = exports["default"] = {
     "position": "relative",
     "padding": ".2em",
     "borderRadius": "0.3em",
-    "color": "#D85486", // Changed to match Block Level Variables
+    "color": "#D85486", // Block Level Variables
     "border": "1px solid rgba(0, 0, 0, 0.1)",
     "display": "inline",
     "whiteSpace": "normal"
@@ -116,110 +116,110 @@ var _default = exports["default"] = {
     "right": "0.75em"
   },
   "comment": {
-    "color": "#a666e4" // Changed to match Comment
+    "color": "#a666e4" // Comment
   },
   "block-comment": {
-    "color": "#a666e4" // Changed to match Comment
+    "color": "#a666e4" // Comment
   },
   "prolog": {
-    "color": "#a666e4" // Changed to match Comment
+    "color": "#a666e4" // Comment
   },
   "doctype": {
-    "color": "#a666e4" // Changed to match Comment
+    "color": "#a666e4" // Comment
   },
   "cdata": {
-    "color": "#a666e4" // Changed to match Comment
+    "color": "#a666e4" // Comment
   },
   "punctuation": {
-    "color": "#a666e4" // Changed to match Operator, Misc
+    "color": "#a666e4" // Operator, Misc
   },
   "property": {
-    "color": "#00769E" // Changed to match Variables
+    "color": "#00769E" // Variables
   },
   "tag": {
-    "color": "#00769E" // Changed to match Tag
+    "color": "#00769E" // Tag
   },
   "boolean": {
-    "color": "#00769E" // Changed to match Number, Constant, Function Argument, Tag Attribute, Embedded
+    "color": "#00769E" // Number, Constant, Function Argument, Tag Attribute, Embedded
   },
   "number": {
-    "color": "#00769E" // Changed to match Number, Constant, Function Argument, Tag Attribute, Embedded
+    "color": "#00769E" // Number, Constant, Function Argument, Tag Attribute, Embedded
   },
   "function-name": {
-    "color": "#a58d00" // Changed to match Function, Special Method
+    "color": "#a58d00" // Function, Special Method
   },
   "constant": {
-    "color": "#00769E" // Changed to match Number, Constant, Function Argument, Tag Attribute, Embedded
+    "color": "#00769E" // Number, Constant, Function Argument, Tag Attribute, Embedded
   },
   "symbol": {
-    "color": "#00769E" // Changed to match Number, Constant, Function Argument, Tag Attribute, Embedded
+    "color": "#00769E" // Number, Constant, Function Argument, Tag Attribute, Embedded
   },
   "deleted": {
-    "color": "#FF5370" // Changed to match Deleted
+    "color": "#FF5370" // Deleted
   },
   "selector": {
-    "color": "#00C29B" // Changed to match Class, Support
+    "color": "#00C29B" // Class, Support
   },
   "attr-name": {
-    "color": "#A06C00" // Changed to match HTML Attributes
+    "color": "#A06C00" // HTML Attributes
   },
   "string": {
-    "color": "#C56E43" // Changed to match String, Symbols, Inherited Class, Markup Heading
+    "color": "#A5562D" // String, Symbols, Inherited Class, Markup Heading
   },
   "char": {
-    "color": "#C56E43" // Changed to match String, Symbols, Inherited Class, Markup Heading
+    "color": "#A5562D" // String, Symbols, Inherited Class, Markup Heading
   },
   "function": {
-    "color": "#a58d00" // Changed to match Function, Special Method
+    "color": "#a58d00" // Function, Special Method
   },
   "builtin": {
-    "color": "#a58d00" // Changed to match Function, Special Method
+    "color": "#a58d00" // Function, Special Method
   },
   "inserted": {
-    "color": "#8AB82F" // Changed to match Inserted
+    "color": "#8AB82F" // Inserted
   },
   "operator": {
-    "color": "#a666e4", // Changed to match Operator, Misc
+    "color": "#a666e4", // Operator, Misc
     "background": "rgba(255, 255, 255, 0.5)"
   },
   "entity": {
-    "color": "#a666e4", // Changed to match Operator, Misc
+    "color": "#a666e4", // Operator, Misc
     "background": "rgba(255, 255, 255, 0.5)",
     "cursor": "help"
   },
   "url": {
-    "color": "#a666e4", // Changed to match Operator, Misc
+    "color": "#a666e4", // Operator, Misc
     "background": "rgba(255, 255, 255, 0.5)"
   },
   "variable": {
-    "color": "#00769E", // Changed to match Variables
+    "color": "#00769E", // Variables
     "background": "rgba(255, 255, 255, 0.5)"
   },
   "atrule": {
-    "color": "#00769E" // Changed to match Keyword, Storage
+    "color": "#00769E" // Keyword, Storage
   },
   "attr-value": {
-    "color": "#00769E" // Changed to match Keyword, Storage
+    "color": "#00769E" // Keyword, Storage
   },
   "keyword": {
-    "color": "#00769E" // Changed to match Keyword, Storage
+    "color": "#00769E" // Keyword, Storage
   },
   "class-name": {
-    "color": "#00C29B" // Changed to match Class, Support
+    "color": "#00C29B" // Class, Support
   },
   "regex": {
-    "color": "#89DDFF" // Changed to match Regular Expressions
+    "color": "#0079A2" // Regular Expressions
   },
   "important": {
     "color": "#e90",
     "fontWeight": "normal"
   },
   ".language-css .token.string": {
-    "color": "#C56E43", // Changed to match String, Symbols, Inherited Class, Markup Heading
+    "color": "#A5562D", // String, Symbols, Inherited Class, Markup Heading
     "background": "rgba(255, 255, 255, 0.5)"
   },
   ".style .token.string": {
-    "color": "#C56E43", // Changed to match String, Symbols, Inherited Class, Markup Heading
+    "color": "#A5562D", // String, Symbols, Inherited Class, Markup Heading
     "background": "rgba(255, 255, 255, 0.5)"
   },
   "bold": {
